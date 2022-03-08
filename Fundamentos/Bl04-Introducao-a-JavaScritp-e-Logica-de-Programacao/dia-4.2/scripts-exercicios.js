@@ -8,3 +8,10 @@ for (let i = 0; i < members.length; i += 1) {
 }
 console.log('A soma das notas é:', soma);
 console.log('A media das notas é:', media);
+
+if (media > 20){
+    console.log('valor maior que 20');
+}
+else {
+    console.log('valor menor ou igual a 20');
+}
