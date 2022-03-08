@@ -21,3 +21,4 @@ else if (num2 > num3 && num2 > num1) {
 else {
     console.log("num3 é o maior dos tres numeros");
 };
+
