@@ -1,22 +1,36 @@
 let members = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let impar = 0
+
+let menor = members[0];
+
+for (let i = 1; i < members.length; i+=1){
+    if (menor > members[i]){
+        menor = members[i];
+    }
+}
+
+console.log ('O menor numero do vetor é:', menor);
+
+
+
+
+
 
 // let maior = members[0];
 
-for (let index = 0; index < members.length; index += 1){
+//for (let index = 0; index < members.length; index += 1){
 
-    if (members[index] %2 !== 0){
+    //if (members[index] %2 !== 0){
     
-        impar += 1}
+      //  impar += 1}
     
-    if (impar === 0){
+ //   if (impar === 0){
     
-        console.log("Não foram encontrados numeros impares");
-    }
-        else {
-        console.log("Os seguintes numewros impares encontrados:", + impar);
-    }
-}      
+   //     console.log("Não foram encontrados numeros impares");
+   // }
+     //   else {
+     //   console.log("Os seguintes numewros impares encontrados:", + impar);
+   // }
+//}      
         
     
     
