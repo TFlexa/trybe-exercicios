@@ -1,1 +1,1 @@
-console.log(document.getElementById("page-title").innerText) = corinthians;
+console.log(document.querySelector('#elementoOndeVoceEsta').parentNode);
